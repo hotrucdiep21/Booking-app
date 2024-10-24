@@ -1,4 +1,5 @@
 import Hotel from "../models/Hotel.js";
+import jwt from "jsonwebtoken";
 //create
 export const createHotel = async (req, res) => {
     try {
